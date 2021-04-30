@@ -1,0 +1,50 @@
+@media(min-width:992px) and (max-width:1200px) {
+  /* .container, .container-md, .container-sm {
+    max-width: 90% !important;
+    width: 90% !important;
+  }  */
+}
+
+@media(max-width:991px){
+  .container, .container-md, .container-sm {
+    max-width: 95% !important;
+    width: 95% !important;
+  } 
+  
+
+}
+
+@media(max-width:767px){
+    .container, .container-md, .container-sm {
+      max-width: 95% !important;
+      width: 95% !important;
+  }
+  .body_img{
+    display: none;
+  }
+  #header_p{
+    margin: 20px 0; 
+    font-size: 18px;
+  }
+
+  .orderList {
+    padding: 10px 0px 15px 30px !important;
+    display: flex;
+  }
+  a.orderLi.admin_btn {
+    margin: 0;
+  }
+    .top{
+      width: 30% !important;
+    }
+    .userData.d-flex.justify-content-between {
+      padding: 0 0px 0 30px;
+  }
+  input.form-control.form_input {
+    width: 100% !important;
+  }
+  textarea.form-control.form_input {
+    width: 100% !important;
+  }
+}
+
